@@ -14,14 +14,20 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        // Seed an admin
+        // Seed an admin and a user
         DB::table('users')->insert([
            [
                'name' => 'admin',
                'email' => 'admin@gmail.com',
                'password' => bcrypt('password'),
                'role_id' => Role::ADMIN
-           ]
+           ],
+            [
+                'name' => 'user',
+                'email' => 'example@gmail.com',
+                'password' => bcrypt('password'),
+                'role_id' => Role::USER
+            ]
         ]);
     }
 }
