@@ -60,8 +60,11 @@ _localhost_ in your browser
 ```
 
 # Functionality
-- From _localhost_/ you should see the list of books which seeded by BookFactory
-- To access the admin panel by route _localhost_/admin/ you should enter **email:admin@gmail.com** and **password:password**
+- From localhost/ you should see the list of books which seeded by BookFactory
+- To access the admin panel by route localhost/admin/ you should enter **email:admin@gmail.com** and **password:password**
 
 ## Screenshots:
-(https://github.com/RivGames/OnixTestTask/assets/82283436/a10494a1-cd52-4480-994f-9972a435f15b)
+![Screenshot from 2023-06-17 13-12-04](https://github.com/RivGames/OnixTestTask/assets/82283436/0aaf8e20-ccdc-41d5-b4e3-792c9b63cb08)
+![Screenshot from 2023-06-17 13-12-26](https://github.com/RivGames/OnixTestTask/assets/82283436/7156a410-f1c9-4a79-901b-42a26ab936cd)
+![Screenshot from 2023-06-17 13-11-37](https://github.com/RivGames/OnixTestTask/assets/82283436/127db8b1-f935-4717-8b99-7f8f1ec7dc22)
+![Screenshot from 2023-06-17 13-09-35](https://github.com/RivGames/OnixTestTask/assets/82283436/a7a9a227-1009-4aa2-abc4-c1ca3cfd204d)
