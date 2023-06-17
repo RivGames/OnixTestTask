@@ -64,4 +64,4 @@ _localhost_ in your browser
 - To access the admin panel by route _localhost_/admin/ you should enter **email:admin@gmail.com** and **password:password**
 
 ## Screenshots:
-[test](https://github.com/RivGames/OnixTestTask/assets/82283436/a10494a1-cd52-4480-994f-9972a435f15b)
+(https://github.com/RivGames/OnixTestTask/assets/82283436/a10494a1-cd52-4480-994f-9972a435f15b)
