@@ -37,3 +37,34 @@ Now, you have to install all dependencies with Composer. Run the following comma
 ```
 ./vendor/bin/sail composer install
 ```
+
+## Step 5: Generate App Key
+```
+./vendor/bin/sail artisan key:generate
+```
+
+## Step 6: Run Database Migrations and Seeder
+To create necessary database tables and records, run the following command:
+```
+./vendor/bin/sail artisan migrate --seed
+``` 
+
+## Step 7: Access the Application 
+Once the installation is completed, you can access application by visiting 
+_localhost_ in your browser
+
+## Additional Configuration:
+- To stop docker containers write:
+```
+./vendor/bin/sail down
+```
+
+# Functionality
+- From _localhost_/ you should see the list of books which seeded by BookFactory
+- To access the admin panel by route _localhost_/admin/ you should enter **email:admin@gmail.com** and **password:password**
+
+## Screenshots:
+![http://localhost/](https://ibb.co/qMZsY6n)
+![http://localhost/admin/books](https://ibb.co/MMPkC6f)
+![http://localhost/admin/books/create](https://ibb.co/K7KSj9C)
+![http://localhost/admin/books/11](https://ibb.co/K7KSj9C)
