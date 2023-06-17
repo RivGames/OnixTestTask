@@ -20,8 +20,13 @@ git clone https://github.com/RivGames/OnixTestTask.git
 cd OnixTestTask
 cp .env.example .env
 ```
+## Step 3: Install Laravel Sail
+```
+php artisan sail:install
+```
+Then choose mysql or press 0
 
-## Step 3: Start Docker Containers
+## Step 4: Start Docker Containers
 To start the Docker containers and run the Laravel application, use Laravel Sail. From the root directory,
 run the following command
 ```
@@ -32,24 +37,24 @@ Or if you have alias for sail in your ~/.bashrc:
 sail up
 ```
 
-## Step 4: Install dependencies
+## Step 5: Install dependencies
 Now, you have to install all dependencies with Composer. Run the following command in the project directory:
 ```
 ./vendor/bin/sail composer install
 ```
 
-## Step 5: Generate App Key
+## Step 6: Generate App Key
 ```
 ./vendor/bin/sail artisan key:generate
 ```
 
-## Step 6: Run Database Migrations and Seeder
+## Step 7: Run Database Migrations and Seeder
 To create necessary database tables and records, run the following command:
 ```
 ./vendor/bin/sail artisan migrate --seed
 ``` 
 
-## Step 7: Access the Application 
+## Step 8: Access the Application 
 Once the installation is completed, you can access application by visiting 
 _localhost_ in your browser
 
