@@ -65,6 +65,3 @@ _localhost_ in your browser
 
 ## Screenshots:
 [test](https://github.com/RivGames/OnixTestTask/assets/82283436/a10494a1-cd52-4480-994f-9972a435f15b)
-![http://localhost/admin/books](https://ibb.co/MMPkC6f)
-![http://localhost/admin/books/create](https://ibb.co/K7KSj9C)
-![http://localhost/admin/books/11](https://ibb.co/K7KSj9C)
