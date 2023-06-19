@@ -13,8 +13,6 @@ class BookController extends Controller
      */
     public function index(): View
     {
-        $books = Book::query()->select(['title','author','publication_year','publisher','isbn'])->paginate(10);
-
-        return view('books',compact('books'));
+        return view('books',['books' => Book::all()]);
     }
 }
