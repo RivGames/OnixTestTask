@@ -53,7 +53,7 @@ To create necessary database tables and records, run the following command:
 ```
 ./vendor/bin/sail artisan migrate --seed
 ``` 
-## Step 8: Instal Frontend
+## Step 8: Install Frontend
 Install and compile the frontend dependencies with ```npm install && npm run dev```
 
 ## Step 9: Access the Application 
