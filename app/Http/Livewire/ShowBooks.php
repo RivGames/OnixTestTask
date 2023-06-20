@@ -12,8 +12,8 @@ class ShowBooks extends Component
 
     public function render()
     {
-        return view('livewire.show-books',[
-            'books' => Book::paginate(10),
-        ]);
+        $books = Book::paginate(10);
+
+        return view('livewire.show-books', compact('books'));
     }
 }
