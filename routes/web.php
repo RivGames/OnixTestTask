@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\BookController;
+use App\Http\Livewire\ShowBooks;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/',[BookController::class,'index'])->name('books.index');
+Route::get('/', ShowBooks::class)->name('books.index');
